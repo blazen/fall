@@ -9,7 +9,6 @@ body {
 	min-height: 100%;
 	font-family: 'Open Sans';
 	color: #393939;
-	line-height: 1.5
 }
 /* header */
 a{
@@ -47,7 +46,7 @@ li{
 }
 .navbar-container .navbar-header.pull-left a{
 	color: #FFF;
-	font-size: 35px;
+	font-size: 30px;
 }
 .navbar-container .navbar-header.pull-left a:HOVER{
 	color: #5E5E5E;

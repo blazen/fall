@@ -14,57 +14,65 @@
   <body>
     <div class="navbar">
 			<div class="navbar-container">
-				<div class="navbar-header pull-left">
-					<ul>
-						<li>
-							<a href="#">
-								<small>
-									<i class="icon-leaf"></i>
-									My Aotumation System
-								</small>
-							</a><!-- /.brand -->
-						</li>
-						<li>Archive</li>
-						<li>Categories</li>
-						<li>About</li>
-						<li>Tags</li>
-					</ul>
-				</div><!-- /.navbar-header -->
-
+				<div>
+					<a href="#">
+						<small>
+							<i class="icon-leaf"></i>
+							My Aotumation System
+						</small>
+					</a>
+				</div>
 				<div class="navbar-header pull-right">
 					<ul>
+						<li><a href="">Archive</a></li>
+						<li><a href="">Categories</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Tags</a></li>
+					</ul>
+
+					<ul>
 						<li>
 							<a href="#">
-								<i class="icon-tasks"></i>
-								<span class="">4</span>
+								<span class="fa fa-weibo fa-lg"></span>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<i class="icon-bell-alt icon-animated-bell"></i>
-								<span class="badge badge-important">8</span>
+								<span class="fa fa-github fa-lg"></span>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<i class="icon-envelope icon-animated-vertical"></i>
-								<span class="badge badge-success">5</span>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img class="nav-user-photo" src="" alt="Jason's Photo" />
-								<span class="user-info">
-									<small>欢迎光临,</small>
-									Jason
-								</span>
-								<i class="icon-caret-down"></i>
+								<span class="fa fa-rss fa-lg"></span>
 							</a>
 						</li>
 					</ul>
+			    </div>
+		   </div>
+	</div>
+
+	<div class="container"><!-- 中间 -->
+		<div class="content">
+			<article>
+				<div class="wrapper">
+					{{ content }}
 				</div>
-			</div>
+			</article>
+			<asidde class="right">
+				<section>
+					<h4>Categories</h4>
+					<div>
+						<ul>
+							<li><a href="">linux<span>39</span></a></li>
+						</ul>
+					</div>
+				</section>
+			</aside>
 		</div>
-	{{ content }}
+		<footer class="text-left">
+			<p>This project is maintained by <a href="https://github.com/blazen">blazen</a></p>
+			<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+		</footer>
+    </div>
   </body>
 </html>
