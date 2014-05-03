@@ -8,7 +8,6 @@ body {
 	padding-bottom: 0;
 	min-height: 100%;
 	font-family: 'Open Sans';
-	font-size: 13px;
 	color: #393939;
 	line-height: 1.5
 }
@@ -43,12 +42,13 @@ li{
 }
 .navbar-container .navbar-header.pull-left a{
 	color: #FFF;
-	font-size: 26px;
+	font-size: 35px;
 }
 .navbar-container .navbar-header.pull-left a:HOVER{
 	color: #5E5E5E;
 }
 .navbar-header.pull-right{
+	font-size: 10px;
 	height: 40px;
 }
 .navbar-container .navbar-header.pull-right li{
