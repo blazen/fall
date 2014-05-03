@@ -40,6 +40,11 @@ li{
 .navbar .navbar-header {
 	margin: 0!important
 }
+.navbar-container .navbar-header li{
+	color: #FFF;
+	display: inline;
+	margin: 5px;
+}
 .navbar-container .navbar-header.pull-left a{
 	color: #FFF;
 	font-size: 35px;
@@ -50,11 +55,6 @@ li{
 .navbar-header.pull-right{
 	font-size: 10px;
 	height: 40px;
-}
-.navbar-container .navbar-header.pull-right li{
-	color: #FFF;
-	display: inline;
-	margin: 5px;
 }
 .navbar-container .navbar-header.pull-right a{
 	color: #FFF;
